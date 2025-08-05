@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Rock Paper Scissors</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is a fun and interactive Rock Paper Scissors game.">
+    <meta name="author" content="Isha">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Rock Paper Scissors</h1>
+
+    <div class="buttons">
+        <button onclick="playGame('rock')">🪨 Rock</button>
+        <button onclick="playGame('paper')">📄 Paper</button>
+        <button onclick="playGame('scissors')">✂️ Scissors</button>
+    </div>
+
+    <div class="scoreboard">
+        🧍‍♂️ You: <span id="userScore">0</span> | 🤖 Computer: <span id="computerScore">0</span>
+    </div>
+
+    <div class="hands">
+        <div class="hand" id="userHand">✊</div>
+        <div class="hand" id="computerHand">✊</div>
+    </div>
+
+    <div class="countdown" id="countdownText"></div>
+    <div class="result" id="resultText"></div>
+
+    <button class="restart-btn" onclick="restartGame()">🔁 Restart</button>
+
+    <!-- Sound Effects -->
+    <audio id="winSound" src="https://www.fesliyanstudios.com/play-mp3/4386" preload="auto"></audio>
+    <audio id="loseSound" src="https://www.fesliyanstudios.com/play-mp3/4376" preload="auto"></audio>
+    <audio id="drawSound" src="https://www.fesliyanstudios.com/play-mp3/4387" preload="auto"></audio>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

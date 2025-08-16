@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background: #fff;
+    background-color: #EBD6FB;
     text-align: center;
     padding: 40px 20px;
 }
@@ -38,7 +38,7 @@ button {
 }
 
 button:hover {
-    background-color: #3d79b9;
+    background-color: #C71E64;
 }
 
 .scoreboard {
@@ -136,7 +136,7 @@ button:hover {
 }
 
 .restart-btn:hover {
-    background-color: #f085d9;
+    background-color: #e667ca;
 }
 
 @media (max-width: 600px) {
